@@ -150,6 +150,14 @@
 	background: white;
 }
 
+#badRed {
+  color: red;
+}
+
+#goodGreen {
+  color: green;
+}
+
 .main-section-title {
   font-family: 'Dosis', sans-serif;
   font-size: 4em;
