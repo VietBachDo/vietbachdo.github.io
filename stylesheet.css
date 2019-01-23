@@ -1,9 +1,14 @@
+body {
+    overflow-x: hidden;
+
+}
+
 #navWhole {
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
 #resumeLink {
-  margin-left: 20px;
+  margin-left: 5%;
 }
 
 #resumeLink:hover {
@@ -11,9 +16,17 @@
 }
 
 #resumeIcon {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 17px;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+#orangeHover {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#orangeHover:hover {
+  color: #FD6A02;
 }
 
 #questionsImages {
@@ -25,7 +38,6 @@
   margin-left: 100px;
   width: 75%;
   height: 75%;
-  border-radius: 5%;
   box-shadow: 0 8px 6px -6px black;
 }
 
@@ -83,7 +95,10 @@
 
 .choices {
   position: relative;
-  left: 350px;
+}
+
+.where-from {
+  margin-top: 50px;
 }
 
 /* The box */
@@ -111,7 +126,7 @@
 .checkmark {
   position: absolute;
   top: 30px;
-  left: 0;
+  left: 300px;
   height: 25px;
   width: 25px;
   background-color: #eee;
@@ -150,12 +165,28 @@
 	background: white;
 }
 
-#badRed {
+#franceWrong {
+  display: none;
   color: red;
 }
 
-#goodGreen {
+#polandRight {
+  display: none;
   color: green;
+}
+
+#vietnamWrong {
+  display: none;
+  color: red;
+}
+
+#usaWrong {
+  display: none;
+  color: red;
+}
+
+.hometown-question {
+  text-align: center;
 }
 
 .main-section-title {
@@ -170,5 +201,6 @@
 
 #centerSection {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }

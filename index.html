@@ -16,8 +16,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">Works</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link" id="orangeHover" href="#works">Works</a>
+          <a class="nav-item nav-link" id="orangeHover" href="#price">Pricing</a>
         </div>
       </div>
     </nav>
@@ -51,27 +51,27 @@
         <div class="col-md-6">
           <div class="animation-question">
               <div class="hometown-question">
-                <span id="animationOrange">I</span> am from:
+                Where could it be ?
                 <div class="choices">
                   <label class="box">France
-                      <input type="radio" name="radio">
+                      <input type="radio" id="franceBox" name="radio">
                       <span class="checkmark"></span>
-                      <span id="badRed">&#x2718;</span>
+                      <span id="franceWrong">&#x2718;</span>
                   </label>
                   <label class="box">Poland
-                      <input type="radio" name="radio">
+                      <input type="radio" id="polandBox" name="radio">
                       <span class="checkmark"></span>
-                      <span id="goodGreen">&#x2713;</span>
+                      <span id="polandRight">&#x2713;</span>
                   </label>
                   <label class="box">Vietnam
-                      <input type="radio" name="radio">
+                      <input type="radio" id="vietnamBox"name="radio">
                       <span class="checkmark"></span>
-                      <span id="badRed">&#x2718;</span>
+                      <span id="vietnamWrong">&#x2718;</span>
                   </label>
                   <label class="box">USA
-                      <input type="radio" name="radio">
+                      <input type="radio" id="usaBox"name="radio">
                       <span class="checkmark"></span>
-                      <span id="badRed">&#x2718;</span>
+                      <span id="usaWrong">&#x2718;</span>
                   </label>
                 </div>
               </div>
@@ -79,16 +79,148 @@
         </div>
     </div>
   </div>
-  <hr>
   <div class="container-fluid" id="centerSection">
-      <h2 class="main-section-title"><span id=animationOrange>Hi</span>, My name is <span id=animationOrange>Viet Bach</span> Do</h2>
+      <h2 class="main-section-title"><span id=animationOrange>Hi</span>, My name is Viet Bach Do</h2>
       <h3 class="sub-section-title">but you can simply call me <span id=animationOrange>Bartek</span></h3>
       <p>
         Although, I am from Poland, I can communicate fluently in all of the 4 languages (French, Vietnamese, Polish and English).
-        SO, feel free to communicate
+        So, feel free to communicate with me in the most comfortable language for you.
       </p>
   </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <div class="album py-5 bg-light">
+        <div class="container">
+          <h1 id="works">My Past Works</h1>
+          <h2>Clones</h2>
+          <div class="row">
+            <!-- first -->
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://wustlcse204.github.io/05-instagram-clone-VietBachDo/"><img class="card-img-top"  src="twitter_clone.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                  <p class="card-text">A clone of the Twitter page</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://wustlcse204.github.io/05-instagram-clone-VietBachDo/"><img class="card-img-top" src="instagram_clone.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                  <p class="card-text">A clone of the Instagram page</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+            </div>
+            <!-- second -->
+            <h2>Redesign Project</h2>
+            <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://wustlcse204.github.io/06-wustl-redesign-VietBachDo/"><img class="card-img-top" src="Washu_1.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                  <p class="card-text">Pure CSS/Javascript Navbar.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://wustlcse204.github.io/06-wustl-redesign-VietBachDo/"><img class="card-img-top" src="Washu_2.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                  <p class="card-text">Hovering effect creating a very modern style of design.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://wustlcse204.github.io/06-wustl-redesign-VietBachDo/"><img class="card-img-top" src="Washu_3.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                  <p class="card-text">As you can notice the chancelor on the right side is looking towards the left hand side.
+                     This will direct the viewers towards the calendar on the left side.</p>
+                </div>
+              </div>
+            </div>
+            <!-- third -->
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://wustlcse204.github.io/06-wustl-redesign-VietBachDo/"><img class="card-img-top" src="Washu_4.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                  <p class="card-text">A darker color choice to mark the end of the page.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <a href="https://wustlcse204.github.io/06-wustl-redesign-VietBachDo/"><img class="card-img-top" src="Washu_5.jpg" alt="Card image cap"></a>
+                <div class="card-body">
+                  <p class="card-text">A fully responsive page. The navbar was constructed without any help of bootstrap.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+          </div>
+            <h2>Django Projects</h2>
+            <!-- fourth -->
+            <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="Washu_1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="Washu_2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="Washu_3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- fifth -->
+            <h2>Mobile Applications</h2>
+            <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="Washu_1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="Washu_2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="Washu_3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      IN MAINTENANCE
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
