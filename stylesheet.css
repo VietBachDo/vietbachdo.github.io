@@ -210,12 +210,20 @@ body {
   margin-bottom: 25px;
 }
 
-#contact {
-  margin-top: 50px;
-  margin-bottom: 50px;
+#containerBox {
+  margin-bottom: 150px;
 }
 
-#sendMessageBtn {
-  background-color: #FD6A02;
-  border: 1px solid #FD6A02;
+.card-text {
+  font-size: 20px;
+}
+
+.e-mail {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+#utils {
+  font-weight: 600;
 }

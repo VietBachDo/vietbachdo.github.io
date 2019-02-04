@@ -11,14 +11,14 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light" id="navWhole">
-      <a class="navbar-brand" id="resumeLink" href="resume_dov.pdf" target="_blank"><i class="far fa-file" id="resumeIcon"></i>Resume</a>
+      <a class="navbar-brand" id="resumeLink" href="resume_dov_2019.pdf" target="_blank"><i class="far fa-file" id="resumeIcon"></i>Resume</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link" id="orangeHover" href="#works">Work</a>
-          <a class="nav-item nav-link" id="orangeHover" href="#contact">Contact</a>
+          <a class="nav-item nav-link" id="orangeHover" href="#containerBox">Contact</a>
           <a class="nav-item nav-link" id="orangeHover" href="https://github.com/VietBachDo"><i class="fab fa-github"></i>Github</a>
         </div>
       </div>
@@ -101,6 +101,7 @@
                 <a href="https://wustlcse204.github.io/05-instagram-clone-VietBachDo/"><img class="card-img-top"  src="twitter_clone.JPG" alt="Card image cap"/></a>
                 <div class="card-body">
                   <p class="card-text">A clone of the Twitter page</p>
+                  <p class="card-text" id="utils">Used: HTML/CSS</p>
                 </div>
               </div>
             </div>
@@ -108,7 +109,8 @@
               <div class="card mb-4 box-shadow">
                 <a href="https://wustlcse204.github.io/05-instagram-clone-VietBachDo/"><img class="card-img-top" src="instagram_clone.JPG" alt="Card image cap"/></a>
                 <div class="card-body">
-                  <p class="card-text">A clone of the Instagram page</p>
+                  <p class="card-text">Similarly to the Twitter page, this Instagram page has been created as a mean of leisure time</p>
+                  <p class="card-text" id="utils">Used: HTML/CSS</p>
                 </div>
               </div>
             </div>
@@ -116,7 +118,7 @@
             </div>
             </div>
             <!-- second -->
-            <h2 class="section-title">Redesign Project</h2>
+            <h2 class="section-title">WashU Business School Redesign Project</h2>
             <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
@@ -173,6 +175,7 @@
                 </iframe>
                 <div class="card-body">
                   <p class="card-text">Kumquat - A website allowing college students to write reviews about their dorms and communicate with their campus/building through a Twitter like chat.</p>
+                  <p class="card-text" id="utils">Used: HTML/CSS/Javascript/Django Forms/MySQL</p>
                 </div>
               </div>
             </div>
@@ -183,6 +186,7 @@
                 </iframe>
                 <div class="card-body">
                   <p class="card-text">porToday - A website helping those who need to find a movie to watch. Data living queried from the Movie Database.</p>
+                  <p class="card-text" id="utils">Used: HTML/CSS/Javascript/Django Forms</p>
                 </div>
               </div>
             </div>
@@ -197,6 +201,7 @@
                 </iframe>
                 <div class="card-body">
                   <p class="card-text">Additionally to the Kumquat website, this iOS application allows college students to connect with each other.</p>
+                  <p class="card-text" id="utils">Used: Swift/SQLite/Adobe Photoshop</p>
                 </div>
               </div>
             </div>
@@ -213,6 +218,7 @@
               </iframe>
               <div class="card-body">
                 <p class="card-text">A garage controller by the a mobile UI. The connection between the hardware and the UI is internet. Demo Coming Soon</p>
+                <p class="card-text" id="utils">Used: HTML/CSS/Javascript/.INO/Particle Development Cloud</p>
               </div>
             </div>
           </div>
@@ -223,6 +229,7 @@
               </iframe>
               <div class="card-body">
                 <p class="card-text">Similarly to the garage controller, this is a simulation of a smart oven. Demo Coming Soon</p>
+                <p class="card-text" id="utils">Used: HTML/CSS/Javascript/.INO/Particle Development Cloud</p>
               </div>
             </div>
           </div>
@@ -246,68 +253,15 @@
         </div>
       </div>
 
-
-      <form id="contact-form" class="contact-form" method="post" action="contact.php">
-
-    <div class="messages"></div>
-
-    <div class="controls" id="contact">
-      <div class="container">
-              <h1 class="section-title">Contact</h1>
-          <div class="row">
-              <div class="col-md-6">
-                  <div class="form-group">
-                      <label for="form_name">Firstname *</label>
-                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                      <div class="help-block with-errors"></div>
-                  </div>
-              </div>
-              <div class="col-md-6">
-                  <div class="form-group">
-                      <label for="form_lastname">Lastname *</label>
-                      <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                      <div class="help-block with-errors"></div>
-                  </div>
-              </div>
+      <div class="container" id="containerBox">
+          <h2 class="section-title">Contact</h2>
+          <div class="card-text">
+            For any inquiries or any question please contact me through the following e-mail account:
           </div>
-          <div class="row">
-              <div class="col-md-6">
-                  <div class="form-group">
-                      <label for="form_email">Email *</label>
-                      <input id="form_email" type="email" name="mail" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                      <div class="help-block with-errors"></div>
-                  </div>
-              </div>
-              <div class="col-md-6">
-                  <div class="form-group">
-                      <label for="form_need">Please specify your need *</label>
-                      <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                          <option value=""></option>
-                          <option value="Request quotation">Request quotation</option>
-                          <option value="Request order status">Request order status</option>
-                          <option value="Request copy of an invoice">Request copy of an invoice</option>
-                          <option value="Other">Other</option>
-                      </select>
-                      <div class="help-block with-errors"></div>
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-md-12">
-                  <div class="form-group">
-                      <label for="form_message">Message *</label>
-                      <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                      <div class="help-block with-errors"></div>
-                  </div>
-              </div>
-              <div class="col-md-12">
-                  <input type="submit" class="btn btn-success btn-send" id="sendMessageBtn" value="Send message">
-              </div>
-          </div>
-        </div>
-    </div>
+          <div class="e-mail">vietbachdo@wustl.edu</div>
 
-</form>
+      </div>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
