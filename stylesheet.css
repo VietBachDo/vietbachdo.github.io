@@ -126,7 +126,7 @@ body {
 .checkmark {
   position: absolute;
   top: 30px;
-  left: 300px;
+  left: 3rem;
   height: 25px;
   width: 25px;
   background-color: #eee;
