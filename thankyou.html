@@ -9,9 +9,20 @@
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
 <body>
-  <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+  <!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
 
-<input type=hidden name='captcha_settings' value='{"keyname":"TestCaptcha","fallback":"true","orgId":"00D22000000D5g3","ts":""}'>
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
 <input type=hidden name="oid" value="00D22000000D5g3">
 <input type=hidden name="retURL" value="https://vietbachdo.github.io/">
 
@@ -612,9 +623,9 @@
 <option value="33">Zhejiang</option>
 </select><br>
 
-<div class="g-recaptcha" data-sitekey="6LdxM74UAAAAAMB68uS1QQxw7KWysv0J5dGqYFgP"></div><br>
 <input type="submit" name="submit">
 
 </form>
+
 </body>
 </html>
