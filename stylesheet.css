@@ -15,6 +15,14 @@ body {
   color: #FD6A02;
 }
 
+#resumeLinkTwo {
+  margin-left: 1%;
+}
+
+#resumeLinkTwo:hover {
+  color: #FD6A02;
+}
+
 #resumeIcon {
   padding-right: 5px;
   font-size: 16px;
@@ -214,6 +222,12 @@ body {
   margin-bottom: 150px;
 }
 
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px #FD6A02, 0 4px 8px #FD6A02;
+  transition: all 0.5s ease;
+}
+
 .card-text {
   font-size: 20px;
 }
@@ -226,4 +240,9 @@ body {
 
 #utils {
   font-weight: 600;
+}
+
+.noHover{
+  transform: none;
+  box-shadow: 0 0px 0px #fafafa, 0 0px 0px #fafafa;
 }
